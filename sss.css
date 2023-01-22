@@ -1,0 +1,56 @@
+.city {
+  display: block;
+  max-width: 590px;
+  margin: 100px 50px;
+  border: 1px solid rgba(0, 0, 0, 0.133);
+}
+.town {
+  max-width: 320px;
+  color: blue;
+}
+span {
+  cursor: pointer;
+}
+span:hover {
+  text-decoration: underline;
+}
+form {
+  display: block;
+  margin: 23px;
+}
+input {
+  padding: 7px 80px 7px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.311);
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.14);
+}
+.search {
+  padding: 7px 20px 7px 10px;
+  background: rgb(93, 222, 93);
+  border: 3px solid rgb(93, 222, 93);
+}
+.current {
+  padding: 7px 20px 7px 10px;
+  background: rgba(153, 233, 255, 0.995);
+  border: 3px solid rgba(153, 233, 255, 0.995);
+}
+.Kyiv {
+  margin: 30px;
+  color: rgba(10, 28, 28, 0.377);
+}
+h1 {
+  display: inline-block;
+  margin: 10px 230px 20px 30px;
+}
+.weather {
+  display: inline-block;
+}
+h6 {
+  color: rgba(0, 0, 0, 0.514);
+}
+.fifteen {
+  color: black;
+}
+#rightDate{
+  display: inline-block;
+}
+
