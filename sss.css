@@ -53,4 +53,6 @@ h6 {
 #rightDate{
   display: inline-block;
 }
-
+.open{
+  margin-left: 60px;
+}
