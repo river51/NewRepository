@@ -11,60 +11,62 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
-    <div class="city">
-      <div class="town">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <span>London</span>
-            </div>
-            <div class="col">
-              <span>Paris</span>
-            </div>
-            <div class="col">
-              <span>Tokyo</span>
-            </div>
-            <div class="col"> 
-              <span>Warsaw</span>
+    <div class="newCity">
+      <div class="city">
+        <div class="town">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <span class="Tokyo">London</span>
+              </div>
+              <div class="col">
+                <span class="Tokyo">Paris</span>
+              </div>
+              <div class="col">
+                <span class="Tokyo">Tokyo</span>
+              </div>
+              <div class="col"> 
+                <span class="Tokyo">Warsaw</span>
+              </div>
             </div>
           </div>
         </div>
+        <hr />
+        <form>
+          <input type="text" id="veryText"  placeholder="Enter a sity">
+          <button class="search" type="submit">Search</button>
+          <button class="current" type="submit">Current</button>
+        </form>
+        <div class="Kyiv">
+          <h3 id="cities">
+            Kyiv, Ukraine
+          </h3>
+          <h5 id="rightDate">
+            Sanday 17.47
+          </h5>
+          <h5 id="rain">
+            Rain
+          </h5>
+        </div>
+        <h1>
+          <img ="" alt="" id="icon">
+          <span class="tempRight" id="rightTemp">0°</span>
+          <span class="cels">          
+            <a href="#" class="active" id="celsius">°C</a> |
+            <a href="#" class="fahrenheitTemp"id="fahrenheit">°F</a>
+          </span>
+        </h1>
+        <div class="weather">
+          <h6>
+            Humidity: <span id="humidity">69%</span>
+          </h6>
+          <h6>
+            Wind: <span id="wind">3</span>m/h
+          </h6>
+        </div>
       </div>
-      <hr />
-      <form>
-        <input type="text" id="veryText"  placeholder="Enter a sity">
-        <button class="search" type="submit">Search</button>
-        <button class="current" type="submit">Current</button>
-      </form>
-      <div class="Kyiv">
-        <h3 id="cities">
-          Kyiv, Ukraine
-        </h3>
-        <h5 id="rightDate">
-          Sanday 17.47
-        </h5>
-        <h5 id="rain">
-          Rain
-        </h5>
-      </div>
-      <h1>
-        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-cloud-rain-heavy"
-          viewBox="0 0 16 16">
-          <path class="fifteen"
-           d="M4.176 11.032a.5.5 0 0 1 .292.643l-1.5 4a.5.5 0 1 1-.936-.35l1.5-4a.5.5 0 0 1 .644-.293zm3 0a.5.5 0 0 1 .292.643l-1.5 4a.5.5 0 1 1-.936-.35l1.5-4a.5.5 0 0 1 .644-.293zm3 0a.5.5 0 0 1 .292.643l-1.5 4a.5.5 0 1 1-.936-.35l1.5-4a.5.5 0 0 1 .644-.293zm3 0a.5.5 0 0 1 .292.643l-1.5 4a.5.5 0 0 1-.936-.35l1.5-4a.5.5 0 0 1 .644-.293zm.229-7.005a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10H13a3 3 0 0 0 .405-5.973zM8.5 1a4 4 0 0 1 3.976 3.555.5.5 0 0 0 .5.445H13a2 2 0 0 1 0 4H3.5a2.5 2.5 0 1 1 .605-4.926.5.5 0 0 0 .596-.329A4.002 4.002 0 0 1 8.5 1z" />
-        </svg>
-        <span id="rightTemp">8°</span>
-      </h1>
-      <div class="weather">
-      <h6>
-        Humidity: <span id="humidity">69%</span>
-      </h6>
-      <h6>
-        Wind: <span id="wind">3</span>m/h
-      </h6>
-      </div>
-		</div>
-  <a class="open" href="https://github.com/river51/NewRepository">Open-sourse code</a>
+      <a class="open" href="https://github.com/river51/NewRepository">Open-sourse code</a>
+    </div>
 	<script src="veryjs.js"></script>
   </body>
 </html>

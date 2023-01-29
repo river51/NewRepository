@@ -1,17 +1,19 @@
-.city {
+.newCity{
   display: block;
   max-width: 590px;
   margin: 100px 50px;
+}
+.city {
   border: 1px solid rgba(0, 0, 0, 0.133);
 }
 .town {
   max-width: 320px;
   color: blue;
 }
-span {
+.Tokyo {
   cursor: pointer;
 }
-span:hover {
+.Tokyo:hover {
   text-decoration: underline;
 }
 form {
@@ -39,7 +41,7 @@ input {
 }
 h1 {
   display: inline-block;
-  margin: 10px 230px 20px 30px;
+  margin: 10px 200px 20px 30px;
 }
 .weather {
   display: inline-block;
@@ -54,5 +56,18 @@ h6 {
   display: inline-block;
 }
 .open{
-  margin-left: 60px;
+  margin-left: 30px;
+}
+.cels{
+  font-size: 18px;
+  position: relative;
+  top: -30px;
+}
+.active{
+  color: black;
+  text-decoration: none;
+}
+.active:hover{
+  cursor: default;
+  color: black;
 }
