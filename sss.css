@@ -6,34 +6,19 @@
 .city {
   border: 1px solid rgba(0, 0, 0, 0.133);
 }
-.town {
-  max-width: 320px;
-  color: blue;
-}
-.Tokyo {
-  cursor: pointer;
-}
-.Tokyo:hover {
-  text-decoration: underline;
-}
 form {
   display: block;
   margin: 23px;
 }
 input {
-  padding: 7px 80px 7px 20px;
+  padding: 7px 120px 7px 20px;
   border: 1px solid rgba(0, 0, 0, 0.311);
   box-shadow: 2px 3px rgba(0, 0, 0, 0.14);
 }
 .search {
-  padding: 7px 20px 7px 10px;
+  padding: 7px 30px 7px 20px;
   background: rgb(93, 222, 93);
   border: 3px solid rgb(93, 222, 93);
-}
-.current {
-  padding: 7px 20px 7px 10px;
-  background: rgba(153, 233, 255, 0.995);
-  border: 3px solid rgba(153, 233, 255, 0.995);
 }
 .Kyiv {
   margin: 30px;
@@ -48,12 +33,6 @@ h1 {
 }
 h6 {
   color: rgba(0, 0, 0, 0.514);
-}
-.fifteen {
-  color: black;
-}
-#rightDate{
-  display: inline-block;
 }
 .open{
   margin-left: 30px;
