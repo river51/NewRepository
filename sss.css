@@ -34,6 +34,12 @@ h1 {
 h6 {
   color: rgba(0, 0, 0, 0.514);
 }
+.cloud {
+  color: rgba(0, 0, 0, 0.433);
+}
+.HTMLForecast {
+  color: rgba(0, 0, 0, 0.433);
+}
 .open{
   margin-left: 30px;
 }
